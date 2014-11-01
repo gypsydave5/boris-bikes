@@ -3,7 +3,7 @@
 Boris Bikes
 ===========
 
-The Boris Bikes project created during week 2 at Makers Academy. The task was to make a running piece of code that coud be used to run a city cycle hire system. We got to learn more about Ruby, get our hands dirty and then progressively cleaner using Rspec testing with doubles an without, learn lots about Object-Oriented Design, and pair program like crazy. :smile: 
+The Boris Bikes project created during week 2 at Makers Academy. The task was to make a running piece of code that coud be used to run a city cycle hire system. We got to learn more about Ruby, get our hands dirty and then progressively cleaner using Rspec testing with doubles and without, learn lots about Object-Oriented Design, and pair program like crazy. :smile: 
 
 Objective
 ---------
