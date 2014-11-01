@@ -3,7 +3,7 @@
 Boris Bikes
 ===========
 
-The Boris Bikes project created during week 2 at Makers Academy. The task was to make a running piece of code that coud be used to run a city cycle hire system. We got to learn more about Ruby, get our hands dirty and then progressively cleaner using Rspec testing with doubles and without, learn lots about Object-Oriented Design, and pair program like crazy. :smile: 
+The Boris Bikes project created during week 2 at Makers Academy. The task was to make a running piece of code that coud be used to run a city cycle hire system. We got to learn more about Ruby, get our hands dirty and then progressively cleaner using Rspec testing with doubles and without, learn lots about Object-Oriented Design, and pair program like crazy. :smile:
 
 Objective
 ---------
@@ -26,4 +26,18 @@ So SOLID means...
   - [<b>D</b>ependency inversion principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle): Make the higher level parts of the code independent of the lower level parts of the code; make them both dependent upon abstractions and not concrete instances (which is why [dependency injection](http://en.wikipedia.org/wiki/Dependency_injection) is so awesome to think about when decoupling code.)
 
 
-We tried to implement the above as well as we could, and rewrote the code a number of times using both Chicago (initially) and London style testing. It was a lot of fun - and with over one hundred commits I'm pretty sure I'll never want to look at another Boris Bike again :smile:
+We tried to implement the above as well as we could, and rewrote the code
+a number of times using both Chicago (initially) and London style testing. It
+was a lot of fun - and with over one hundred commits I'm pretty sure I'll never
+want to look at another Boris Bike again :smile:
+
+####How to use
+
+The model is not hooked up to an interface, so you won't be able to use the
+model. Unless you write one.
+
+####Testing
+
+The model is tested using [RSpec](https://github.com/rspec/rspec). Once the
+repository is cloned, run `bundle` to install the dependencies and `rspec` to
+run the test suite.
